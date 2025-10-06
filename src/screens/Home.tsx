@@ -31,6 +31,7 @@ export function Home({ navigation }: any) {
                 style={styles.input}
                 value={password}
                 onChangeText={setPassword}
+                secureTextEntry={true}
             />
             <Button title="Entrar" onPress={handleLogin} />
         </View>
